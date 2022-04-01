@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="trangchu.html">
+                    <img src="images/ok.jpg" alt="ok"> </a>
+            </div>
+            <div class="col-md-9">
+                <h2 style="color: white"><strong> Mang Nụ Cười Đến Mọi Người </strong></h2>
+            </div>
+        </div>
+    </div>
+    <div class="menu" style="padding: 10px; padding-left: 50px;">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="btn-group">
+                    <a href="trangchu.html"><button type="button" class="btn text-white " ><i class="fas fa-home"></i> <strong>Trang chủ</strong></button></a>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn  dropdown-toggle text-white" data-toggle="dropdown"> <i class="fas fa-list"></i> <strong>Khóa Học</strong></button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">A </a>
+                        <a class="dropdown-item" href="#">B </a>
+                    </div>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn  dropdown-toggle text-white" data-toggle="dropdown"><i class="fas fa-book-open"></i> <strong>Tin tức</strong></button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Tin tức & Sự Kiện</a>
+                        <a class="dropdown-item" href="#">Khuyễn mãi trong ngày </a>
+                    </div>
+                </div>
+                <button type="button" class="btn btn btn-hover text-white" data-toggle="modal" data-target="#Ahihi33" style="text-align: center"> <i class="fas fa-phone"></i> <strong>Liên hệ</strong></button>
+
+                <div id="Ahihi33" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title"> Thông tin liên hệ </h5>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <h5> <i class="fab fa-facebook"></i> Liên hệ fb : https://www.facebook.com/An</h5>
+                                <h5><i class="fas fa-envelope-square"></i> Email : AnDang18@gmail.com </h5>
+                                <h5><i class="fab fa-instagram">Instagram: Annnnnnnn18 </i></h5>
+                                <p> <i class="fas fa-phone-volume"></i> Holine :0869280017</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal"> Đóng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="body mr-20px">
+        <div class="jumbotron" id="About" align="center">
+            <strong><h1 style="padding-bottom:10px"> Xổ Số May Mắn  </h1></strong>
+            <hr align="center">
+            <br>
+            <br>
+            <br>
+            <p>Giải đặc biệt:<span id="giaidacbiet"></span></p>
+            <p>Giải nhất:<span id="giainhat"></span></p>
+            <p>Giải nhì:<span id="giainhi"></span></p>
+            <p>Giải ba:<span id="giaiba"></span></p>
+            <p>Giải tư:<span id="giaitu"></span></p>
+            <p>Giải năm:<span id="giainam"></span></p>
+            <p>Giải sáu:<span id="giaisau"></span></p>
+            <p>Giải bảy:<span id="giaibay"></span></p>
+
+
+            <button onclick="add()">Add</button>
+
+
+            <br>
+            <br>
+        </div>
+
+
+        <div class="footer">
+            <div class="row">
+                <div class="col-md-4">
+                    <h8><i class="fas fa-map-marker-alt"></i> Địa chỉ : 176 Trần Phú </h8>
+                    <br>
+                    <h8><i class="fas fa-envelope-square"></i> Email : AnDang18@gmail.com </h8>
+                </div>
+                <div class="col-md-4">
+                    <h7>Copyright 2020 · Thiết kế và phát triển bởi Khanh&An All rights reserved</h7>
+                </div>
+                <div class="col-md-4">
+                    <h7>Wololo</h7>
+                </div>
+            </div>
+        </div>
+        <script src="./index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html
